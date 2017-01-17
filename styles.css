@@ -1,0 +1,42 @@
+#container {
+  height: 600px;
+  width : 300px;
+}
+
+#redSquare, #multiSquare {
+  background-color: red;
+  height: 50%;
+  width: 100%;
+}
+
+#multiSquare * {
+  height: 50%;
+  width: 50%;
+  float: left;
+}
+
+#greenSquare {
+  background-color: green;
+}
+#blueSquare {
+  background-color: blue;
+}
+#yellowSquare {
+  background-color: yellow;
+}
+#orangeSquare {
+  background-color: orange;
+}
+
+@media screen and (min-width: 600px) {
+    #container {
+        height: 300px;
+        width: 600px;
+    }
+    
+    #redSquare, #multiSquare {
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+}
