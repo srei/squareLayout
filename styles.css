@@ -1,3 +1,5 @@
+/* -------------- GENERAL STYLES ---------------------- */
+/* ----------- NARROW VIEW LAYOUT ------------------ */
 #container {
   height: 600px;
   width : 300px;
@@ -28,6 +30,8 @@
   background-color: orange;
 }
 
+
+/* ----------- WIDE DESKTOP LAYOUT ------------------ */
 @media screen and (min-width: 600px) {
     #container {
         height: 300px;
